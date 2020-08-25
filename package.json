@@ -1,0 +1,23 @@
+{
+  "name": "monnify-nodejs",
+  "version": "1.0.0",
+  "description": "A monnify integration library for integrating monnify on node js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest tests/",
+    "build": "tsc "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Legobox-co/monnify-nodejs.git"
+  },
+  "keywords": [
+    "badass"
+  ],
+  "author": "mozart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Legobox-co/monnify-nodejs/issues"
+  },
+  "homepage": "https://github.com/Legobox-co/monnify-nodejs#readme"
+}
