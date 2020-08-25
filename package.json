@@ -4,7 +4,7 @@
   "description": "A monnify integration library for integrating monnify on node js",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest tests/",
+    "test": "jest",
     "build": "tsc "
   },
   "repository": {
@@ -19,5 +19,18 @@
   "bugs": {
     "url": "https://github.com/Legobox-co/monnify-nodejs/issues"
   },
-  "homepage": "https://github.com/Legobox-co/monnify-nodejs#readme"
+  "homepage": "https://github.com/Legobox-co/monnify-nodejs#readme",
+  "dependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^14.6.0",
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4"
+  }
 }
