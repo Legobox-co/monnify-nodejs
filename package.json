@@ -1,5 +1,5 @@
 {
-  "name": "monnify-nodejs",
+  "name": "@legobox/monnify-nodejs",
   "version": "1.0.0",
   "description": "A monnify integration library for integrating monnify on node js",
   "main": "lib/index.js",
@@ -32,5 +32,8 @@
     "@babel/core": "^7.11.4",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-typescript": "^7.10.4"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
