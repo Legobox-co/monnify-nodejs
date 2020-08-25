@@ -1,8 +1,8 @@
 {
   "name": "@legobox/monnify-nodejs",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.2",
   "description": "A monnify integration library for integrating monnify on node js",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest",
     "build": "tsc "
