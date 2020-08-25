@@ -12,7 +12,9 @@
     "url": "git+ssh://git@github.com/Legobox-co/monnify-nodejs.git"
   },
   "keywords": [
-    "badass"
+    "monnify", 
+    "payment",
+    "flutterwave"
   ],
   "author": "mozart",
   "license": "ISC",

@@ -1,5 +1,5 @@
 # Monnify Integration library for nodejs
-> A cool library for working with monnify
+> A cool library for working with monnify, 
 > for more information take a look at monnify's docs [click here](https://confluence.teamapt.com/display/MON/Monnify+API+Docs)
 
 ## Getting started
@@ -29,7 +29,7 @@ At the moment these are the following functions provided by the module.
 ### Authenticate
 Authenticate with the monnify api.
 ```
-import Monnify from "@legobox/monnify-nodejs
+import Monnify from "@legobox/monnify-nodejs"
 let monnifyService = new Monnify()
 
 const autheticateWithMonnify = async () => {
@@ -42,7 +42,7 @@ All internal functions of the service already use the authenticate method to per
 ### Reserve Account no
 Reserve an account no for a customer.
 ```
-import Monnify from "@legobox/monnify-nodejs
+import Monnify from "@legobox/monnify-nodejs"
 let monnifyService = new Monnify()
 
 const reserveAccountWithMonnify = async () => {
@@ -62,7 +62,7 @@ const reserveAccountWithMonnify = async () => {
 ### Delete a Reserved account no
 Reserve an account no for a customer.
 ```
-import Monnify from "@legobox/monnify-nodejs
+import Monnify from "@legobox/monnify-nodejs"
 let monnifyService = new Monnify()
 
 const deleteAccountWithMonnify = async (accountNo: string) => {
