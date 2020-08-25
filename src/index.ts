@@ -9,6 +9,8 @@
 require('dotenv').config()
 import moment from "moment"
 import  axios, * as Axios from "axios"
+import crypto from "crypto"
+import sha512 from "js-sha512"
 
 export default class MonnifyService {
     // Private key setting up
@@ -144,5 +146,10 @@ export default class MonnifyService {
         } catch (e) {
             throw e
         }
+    }
+
+    public generateTransactionHash(hashString: string){
+        const generator = sha512.sha512(hashString)
+        return generator
     }
 }
