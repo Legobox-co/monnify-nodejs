@@ -1,6 +1,6 @@
 {
   "name": "@legobox/monnify-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.0-rc.1",
   "description": "A monnify integration library for integrating monnify on node js",
   "main": "lib/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "url": "git+ssh://git@github.com/Legobox-co/monnify-nodejs.git"
   },
   "keywords": [
-    "monnify", 
+    "monnify",
     "payment",
     "flutterwave"
   ],
